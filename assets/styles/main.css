@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    padding: 1.25rem 1.25rem 3.75rem 1.25rem;
+    width: 100%;
+}
+
+a > img{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+}
+header{
+    margin-bottom: 2.5rem;
+}
+div > h2{
+    font-size: 1.5rem;
+    color: #191a1d;
+    text-transform: uppercase;
+    font-style:inherit;
+    font-weight: 500;
+    line-height: 0.99rem;
+}
+
+div > hr{
+    background-color: #4B6CC1;
+    height: 0.35rem;
+    border: none;
+    width: 2rem;
+    border-radius: 0.2rem;
+    margin-top: .7rem;
+    margin-bottom: 0.3rem;
+}
+nav > ul{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.3125rem;
+}
+
+ul > li {
+    list-style: none;
+    font-size: .875rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #5e5e5e;
+}
+main >.Cuerpo > h1{
+    font-size: 2.250rem;
+    font-weight: 400;
+    color: #191a1d;
+    font-style: normal;
+}
+
+main > .Cuerpo > .first-paragraph{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #8d8d8a;
+    margin-top: 0.9375rem;
+    text-align: justify;
+    line-height: 1.95rem;
+}
+main > .Cuerpo > p{
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: #8d8d8a;
+    margin-top: 1.875rem;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+main > .Cuerpo > form{
+    margin-top: 1.5rem;
+}
+
+main>.Cuerpo>form>div{  
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #8d8d8a;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    line-height: 1.4rem;
+    width: 100%;
+}
+
+main>.Cuerpo>form>div>input{  /*Define el tamaño del formulario de contact*/
+    width: 100%;
+    padding: .625rem .625rem;
+}
+
+main>.Cuerpo>form>input{ /*Define el tamaño de input de subjet&message de contact*/
+    width: 100%
+}
+
+main>.Cuerpo>form>div>label{ /*De hoja contacto */
+    padding-bottom: .625rem;
+
+}
+
+main>.Cuerpo>div>div>p{ /* Define las propiedades del texto abajo de las fotos del index*/
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #8d8d8a;
+    margin-top: 1.5625rem;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+main>.Cuerpo>div>div>img{ /*Define las propiedades de las imagenes del index*/ 
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: .8rem;
+    box-shadow: #cacac5 3px 3px 10px 5px;
+    transition: 0.7s ease-in 0.5s;
+}
+
+main > .Cuerpo > div > div> img:hover {
+    transform: scale(1.1);
+    box-shadow: #b9b9b7 7px 7px 5px;
+}
+@media only screen and (min-width: 501px) {
+    body{
+        padding: 1.875rem 1.875rem 3.75rem 1.875rem;
+        width: 100%;
+    }
+    a > img{
+        margin-bottom: 1.875rem;
+    }
+    div > hr{
+        height: 0.4rem;
+        margin-top: .2rem;
+    }
+    ul > li {
+        list-style: none;
+        font-size: .875rem;
+        color: #817b7b;
+        text-transform: uppercase;
+        margin-top: .1rem;
+        margin-right: 2rem;
+    }
+    header{
+        margin-bottom: 3.125rem;
+    }
+    main >.Cuerpo > h1{
+        font-size: 2.625rem;
+        color: #191a1d;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    header{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 0rem;
+        width: 100%;
+    }
+    a > img{
+        border-radius: 50%;
+        width: 6.25rem;
+        height: 6.25rem;
+        margin-bottom: 3.125rem;
+        margin-right: 2rem;
+    }
+    header>div{
+        width: 100%;
+    }
+
+    div > h2{
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        margin-top: 0.1rem;
+    }
+    
+    div > hr{
+        background-color: #4B6CC1;
+        height: 0.28rem;
+        margin-top: 1.1rem;
+    }
+    nav > ul{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 0rem;
+    }
+    ul > li {
+        font-size: .875rem;
+        color: #5e5e5e;
+        margin-top: 1rem;
+        margin-right: 3rem;
+        font-weight:normal;
+    }
+    main > .Cuerpo > h1{
+        font-size: 2.625rem;
+        font-weight: 400;
+        color: #000000;
+    }
+
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .Cuerpo{
+        max-width: 675px;
+    }
+    main >.Cuerpo > div{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    main>div>p{
+        font-size: 1.0rem;
+        font-weight: 400;
+        color: #8d8d8a;
+        text-align: justify;
+        line-height: 2rem;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    body{
+        padding: 5rem 1.875rem;
+        display: flex;
+        justify-content: center;
+    }
+    div>header {
+        width: 964px;
+    }
+
+}
